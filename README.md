@@ -12,7 +12,7 @@ El objetivo de este proyecto es controlar un rover en Marte y moverlo por un ter
 - API REST: Comunicación entre el frontend y el backend para enviar comandos al rover y recibir información sobre su estado y entorno.
 
 ## 🌍 Funcionalidades Principales
-- Control del Rover: Enviar comandos para mover el rover en diferentes direcciones (adelante, atrás, izquierda, derecha).
+- Control del Rover: Enviar comandos para mover el rover en diferentes direcciones (adelante, atrás, girar a la derecha, girar a la izquierda).
 - Detección de Obstáculos: El rover puede detectar obstáculos en su camino y responder adecuadamente para evitar colisiones.
 - Visualización en Tiempo Real: El frontend muestra la posición actual del rover y los obstáculos en el terreno de Marte.
 
