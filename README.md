@@ -10,6 +10,7 @@ El objetivo de este proyecto es controlar un rover en Marte y moverlo por un ter
 - Spring Boot: Framework para el desarrollo del backend, proporcionando una configuración rápida y eficiente para la creación de aplicaciones basadas en Java.
 - Frontend: Interfaz de usuario interactiva que permite a los usuarios controlar el rover y visualizar su movimiento en tiempo real.
 - API REST: Comunicación entre el frontend y el backend para enviar comandos al rover y recibir información sobre su estado y entorno.
+- Postman: Herramienta utilizada para interactuar, enviar datos en formato JSON y realizar pruebas durante el desarrollo del proyecto para la creación del rover.
 
 ## 🌍 Funcionalidades Principales
 - Control del Rover: Enviar comandos para mover el rover en diferentes direcciones (adelante, atrás, girar a la derecha, girar a la izquierda).
@@ -39,9 +40,9 @@ El objetivo de este proyecto es controlar un rover en Marte y moverlo por un ter
 | POST     | /api/obstacle/               | Create obstacle                          |
 
 
-## Responses
+## Workspace
 
-La API devuelve el JSON por ejemplo para crear el rover
+Desde Postman, interactúo para enviar en formato JSON y realizar pruebas. Esto es para crear el rover.
 ```
 {
     "x": 1,
