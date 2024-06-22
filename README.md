@@ -24,6 +24,9 @@ El objetivo de este proyecto es controlar un rover en Marte y moverlo por un ter
 - Obstáculo Detectado:
 <img src="https://github.com/miguelmallquidiaz/api-spring-boot-mars-rover/blob/main/image/obstacle-detected.PNG" alt="rover">
 
+- Puntos de coordenadas:
+<img src="https://github.com/miguelmallquidiaz/api-spring-boot-mars-rover/blob/main/image/coordinate-map.png" alt="rover">
+
 ## EndPoint:
 
 ### Rover
