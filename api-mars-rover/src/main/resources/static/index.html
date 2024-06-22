@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Mars Rover</title>
+    <link rel="icon" href="images/nasa.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <img id="rover" src="images/robot.png" />
+        <div id="map">
+            <img src="images/map1.png" />
+        </div>
+    </div>
+    <div class="div-controls">
+        <h1 class="title">MARS ROVER</h1>
+        <img class="poster" src="images/rover_poster.jpg" />
+        <p>El objetivo es controlar un rover en Marte y moverlo por un terreno sembrado de obstáculos</p>
+        <p class="controls">Controles: </p>
+        <img onclick="clickBtnRotateLeft()" class="btn-control" id="rotate-left" src="images/rotate-left.png" alt="Image 1" />
+        <img onclick="moveForward()" class="btn-control" id="forward" src="images/forward.png" />
+        <img onclick="moveBack()" class="btn-control" id="back" src="images/back.png" />
+        <img onclick="clickBtnRotateRight()" class="btn-control" id="rotate-right" src="images/rotate-right.png" />
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

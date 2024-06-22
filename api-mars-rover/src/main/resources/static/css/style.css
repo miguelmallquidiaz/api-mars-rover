@@ -1,0 +1,140 @@
+#rover {
+    position: absolute;
+    width: 80px;
+    transition: all 500ms linear;
+}
+
+.rock {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+#control-panel {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0.8;
+    bottom: 260px;
+    left: calc(50% - 176px);
+}
+
+.btn-control {
+    cursor: pointer;
+}
+
+#forward {
+    bottom: 50px;
+}
+
+audio {
+    display: none;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    align-items: center;
+}
+
+.contenido {
+    position: relative;
+    z-index: 1;
+}
+
+.div-controls {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.btn-control {
+    width: 50px;
+    height: 50px;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.controls {
+    margin-bottom: 0;
+}
+
+
+
+.title {
+    font-size: 30px;
+}
+
+h1 {
+    margin: 2px;
+}
+
+#map, img {
+    width: 800px;
+}
+
+body, html {
+    display: flex;
+}
+
+#container, .div-controls {
+    margin: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rover {
+    width: 80px;
+    transition: all 500ms linear;
+}
+
+#map img {
+    width: 800px;
+}
+
+.div-controls {
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.controls {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-control {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.poster{
+    width: 150px;
+    height: 150px;
+}
