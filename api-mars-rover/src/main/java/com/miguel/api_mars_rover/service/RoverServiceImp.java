@@ -6,4 +6,6 @@ public interface RoverServiceImp {
     public Rover get();
     void sendCommand(String command);
     void createRover(Rover rover);
+    public boolean exists();
+    public boolean hasObstacleAt(int x, int y);
 }

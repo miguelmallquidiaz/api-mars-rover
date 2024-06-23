@@ -24,10 +24,30 @@ async function refreshRover(){
     });
     let roverJson = await roverResponse.json();
     moveRover(roverJson.x, roverJson.y);
+    updateRoverDirection(roverJson.direction);
     // Check for message property and ensure it's not null or empty
     if (roverJson.message && roverJson.message !== "") {
         showAlert(roverJson.message);
     }
+}
+
+function updateRoverDirection(direction) {
+    let degrees = 0;
+    switch (direction) {
+        case 'NORTH':
+            degrees = 0;
+            break;
+        case 'EAST':
+            degrees = 90;
+            break;
+        case 'SOUTH':
+            degrees = 180;
+            break;
+        case 'WEST':
+            degrees = 270;
+            break;
+    }
+    rotarTo(degrees);
 }
 
 function showAlert(message) {
@@ -57,12 +77,12 @@ var gradosRotados = 0;
 
 function clickBtnRotateLeft() {
     sendCommand("L")
-    rotar(-90);
+    rotarTo(-90);
 }
 
 function clickBtnRotateRight() {
     sendCommand("R")
-    rotar(90);
+    rotarTo(90);
 }
 
 async function moveForward() {
@@ -97,6 +117,12 @@ function playMoveSound() {
 
 function rotar(grados) {
     gradosRotados += grados;
+    var imagen = document.getElementById("rover");
+    imagen.style.transform = "rotate(" + gradosRotados + "deg)";
+}
+
+function rotarTo(degrees) {
+    gradosRotados = degrees;
     var imagen = document.getElementById("rover");
     imagen.style.transform = "rotate(" + gradosRotados + "deg)";
 }
