@@ -35,6 +35,7 @@ El objetivo de este proyecto es controlar un rover en Marte y moverlo por un ter
 | -------- | -------------------------- | ------------------------------------------------ |
 | POST     | /api/rover/               | Create rover at default position                          |
 | POST      | /api/rover/command/      |  Move the rover             |
+| GET      | /api/rover/      |  Get rover             |
 
 ### Obstacle
 
