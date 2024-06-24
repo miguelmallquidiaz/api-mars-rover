@@ -56,5 +56,5 @@ Desde Postman, interactúo para enviar en formato JSON y realizar pruebas. Esto 
 ```
 
 ## Para ejecutar el proyecto
-- Una vez dado a spring boor run
+- Una vez dado a spring boot run
 - Ingresar a `http://localhost:8080/`
